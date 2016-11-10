@@ -1,3 +1,21 @@
+## Week 3 Networked Programs
+#### socket library(connecting to web servers on the internet)
+
+```
+import sock
+mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+mysock.connect(('www.py4inf.com',80)
+
+```
+#### Urllib
+Talk to the web on an application level
+```
+import urllib
+fhand = urllib.urlopen('http://www.py4inf.com/code/romeo.txt')
+fro line in fhand:
+	print line.strip()
+```
+
 ## Week 2 Regular Expression
 use re.search() like find()
 
@@ -61,7 +79,10 @@ returns the shortest list that matches the criteria
 y = re.findall('^F.+?:',x)
 ```
 
-match non-blank character
+#### Starting at the beginning of the line, look for the string "From ", matching non-blank character
+^ means "not"
+
 ```
-'@([^ ]*)'
+'^From .*@([^ ]*)'
 ```
+
