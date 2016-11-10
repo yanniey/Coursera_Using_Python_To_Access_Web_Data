@@ -63,6 +63,7 @@ for line in hand:
 re.search() returns True or False;
 re.findall() extracts the matching strings;
 
+#### re.findall()
 ```
 import re
 x = "this is the line we are searching for. I have 2 apples and 3 bananas."
