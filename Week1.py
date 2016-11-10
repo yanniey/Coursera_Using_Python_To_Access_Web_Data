@@ -1,0 +1,1 @@
+print("week 1 assignment")
