@@ -1,3 +1,23 @@
+## Week 4 Parsing HTML with Beautiful Soup
+
+Find hyperlinks on a specific webpage.
+```
+import urllib
+from BeautifulSoup import *
+
+url = raw_input('Enter -')
+
+<!-- html is a string of the entire web page -->
+html = urllib.urlopen(url).read()
+soup = BeautifulSoup(html)
+
+<!-- Each tag is a dictionary of HTML attributes  -->
+tags = soup('a')
+
+for tag in tag:
+print tag.get('href', None)
+```
+
 ## Week 3 Networked Programs
 #### socket library(connecting to web servers on the internet)
 
