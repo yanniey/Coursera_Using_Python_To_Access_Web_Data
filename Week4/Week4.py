@@ -1,8 +1,11 @@
+# Assignment 1:
+# In this assignment you will write a Python program to use urllib to read the HTML from the data files below, and parse the data, extracting numbers and compute the sum of the numbers in the file
+
 import urllib
 from bs4 import BeautifulSoup
 
-# url = raw_input('Enter - ')
-html = urllib.urlopen("http://python-data.dr-chuck.net/comments_190810.html").read()
+url = raw_input('Enter - ')
+html = urllib.urlopen(url).read()
 
 soup = BeautifulSoup(html)
 sum = 0
