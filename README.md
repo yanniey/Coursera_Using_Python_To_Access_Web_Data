@@ -28,6 +28,8 @@ for tag in tag:
 print tag.get('href', None)
 ```
 
+---
+
 ## Week 3 Networked Programs
 #### socket library(connecting to web servers on the internet)
 
@@ -45,6 +47,8 @@ fhand = urllib.urlopen('http://www.py4inf.com/code/romeo.txt')
 fro line in fhand:
 	print line.strip()
 ```
+
+---
 
 ## Week 2 Regular Expression
 use re.search() like find()
