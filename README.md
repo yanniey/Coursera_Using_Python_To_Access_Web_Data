@@ -1,3 +1,13 @@
+# Using Python to Access Web Data
+## University of Michigan, Professor Charles Severance (My favorite Computer Science professor!), Coursera course
+### 11/2016 - 
+
+Summary:
+To be continued...
+
+
+---
+
 ## Week 4 Parsing HTML with Beautiful Soup
 
 Find hyperlinks on a specific webpage.
