@@ -1,9 +1,25 @@
 # Using Python to Access Web Data
-## University of Michigan, Professor Charles Severance (My favorite Computer Science professor!), Coursera course
-### 11/2016 - 
+### University of Michigan, Professor Charles Severance (My favorite Computer Science professor!), Coursera course
+### 11/2016 - 12/2016
 
 Summary:
-To be continued...
+Scrape, parse and read web data using web APIS. This is part 5 of the Coursera specialization "Python for Everybody".
+
+Libraries learned:
+
+* Urllib 
+* regular expression (regex)
+* XML (xml.etree.ElementTree)
+* JSON (json)
+* Google maps GEOJSON API
+* Twitter API
+
+Feedback:
+Pretty good course for someone who's new to Python and web scraping. 
+
+The assignments are quite easy to complete, I think it would be better if they had been more challenging.
+
+![Course Completion Screenshot](https://github.com/yanniey/Coursera_Using_Python_To_Access_Web_Data/blob/master/Course%20completion%20screenshot.png?raw=true)
 
 ## Week6 JSON in Python
 No attribute, only lists and dictionaries
