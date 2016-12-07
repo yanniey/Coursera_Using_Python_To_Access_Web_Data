@@ -5,6 +5,59 @@
 Summary:
 To be continued...
 
+## Week6 JSON in Python
+No attribute, only lists and dictionaries
+
+```
+import json
+
+data = '''
+{
+  "name" : "Chuck",
+  "phone" : {
+    "type" : "intl",
+    "number" : "+1 734 303 4456"
+   },
+   "email" : {
+     "hide" : "yes"
+   }
+}'''
+
+info = json.loads(data)
+print 'Name:',info["name"]
+print 'Hide:',info["email"]["hide"]
+```
+
+Another example:
+
+```
+import json
+
+input = '''
+[
+  { "id" : "001",
+    "x" : "2",
+    "name" : "Chuck"
+  } ,
+  { "id" : "009",
+    "x" : "7",
+    "name" : "Chuck"
+  } 
+]'''
+
+info = json.loads(input)
+print 'User count:', len(info)
+
+for item in info:
+    print 'Name', item['name']
+    print 'Id', item['id']
+    print 'Attribute', item['x']
+
+
+```
+
+For Twitter, also check twtest.py and twurl.py under Week 4's folder.
+
 ---
 ## Week 5 XML in Python
 Use xml.etree.ElementTree library
